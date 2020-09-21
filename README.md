@@ -6,7 +6,7 @@ The Carbon based foundational web components library can be easily installed in 
 ### setup
 
 npm install
-orxe server
+orxe serve
 
 The start command should open a tab in your browser at http://localhost:3000/
 
