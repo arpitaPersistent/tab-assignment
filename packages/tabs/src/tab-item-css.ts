@@ -76,7 +76,7 @@ export default css`
     margin-right: 0;
 }
 
-:host([isChip]) {
+:host([chip]) {
     min-height: var(--touch-target-small);
     height: var(--touch-target-small);
     border: var(--tab-as-chip-disable-border);
@@ -84,17 +84,17 @@ export default css`
     margin-left: var(--spacing-03);
     padding: 0 var(--spacing-05);
 }
-:host([isChip]) .chip-item {
+:host([chip]) .chip-item {
     font-size: var(--tab-as-chip-font-size);
     justify-content: space-between;
     display: flex;
     width: 100%;
   }
 
-:host([active][isChip]) {
+:host([active][chip]) {
     border: 0;
 }
-:host([active][isChip]) .chip-item {
+:host([active][chip]) .chip-item {
     color: var(--tab-as-chip-font-color);
     font-weight: var(--tabs-font-weight-active);
 }

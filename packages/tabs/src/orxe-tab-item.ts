@@ -5,7 +5,6 @@ import"@orxe-components/icons";
 import"@orxe-components/icon"; 
 
 
-
 @customElement('orxe-tab-item')
 export default class OrxeTabItem extends LitElement {
   /**
@@ -13,7 +12,7 @@ export default class OrxeTabItem extends LitElement {
    * @memberof OrxeTabItem
    * This is used to give the ischip
    */
-  @property({ type: Boolean, reflect: true, attribute: 'isChip' })
+  @property({ type: Boolean, reflect: true, attribute: 'chip' })
   isChip = false;
   /**
    *
@@ -35,8 +34,7 @@ export default class OrxeTabItem extends LitElement {
    * This is used to give the icon of a tab
    */
   @property({ type: String, reflect: true, attribute: 'icon' }) 
-  icon = '';
-  
+  icon = '';  
 
   /**
    * Implement `firstUpdated` for the setting accessibility variables adding event listner.
