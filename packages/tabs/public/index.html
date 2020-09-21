@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"
+    />
+
+    <title>Orxe3 Components</title>
+
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    
+    <link
+    rel="stylesheet"
+    href="https://oski-cdn.s3.amazonaws.com/common/css/fonts/ProximaNova/proxima-nova.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://components.qa.cnxloyalty.com/theme/css/imports.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.3.0/custom-elements-es5-adapter.js"></script>
+
+  </head>
+  <body>
+
+    <orxe-tabs name="tab1">
+      <orxe-tab-item disabled icon="flight">
+        <span slot="tab-item-icon"></span>
+        <span slot="tab-item-label">Flight</span>
+      </orxe-tab-item>
+      <orxe-tab-item active isChip icon="hotel">
+        <span slot="tab-item-icon"></span>
+        <span slot="tab-item-label">Hotel</span>
+      </orxe-tab-item>
+      <orxe-tab-item icon="activity" isChip>
+        <span slot="tab-item-icon"></span>
+        <span slot="tab-item-label">Activity</span>
+      </orxe-tab-item>
+    </orxe-tabs>
+    
+    <orxe-tabs name="tab1">
+      <orxe-tab-item disabled>
+        <span slot="tab-item-label">Flight</span>
+      </orxe-tab-item>
+      <orxe-tab-item>
+        <span slot="tab-item-label">Hotel</span>
+      </orxe-tab-item>
+      <orxe-tab-item>
+        <span slot="tab-item-label">Activity</span>
+      </orxe-tab-item>
+    </orxe-tabs>
+    </br>
+    </br>
+    <orxe-tabs name="tab1">
+      <orxe-tab-item active icon="flight">
+        <span slot="tab-item-icon"></span>
+        <span slot="tab-item-label">Flights</span>
+      </orxe-tab-item>
+      <orxe-tab-item icon="hotel">
+        <span slot="tab-item-icon"></span>
+        <span slot="tab-item-label">Hotels</span>
+      </orxe-tab-item>
+      <orxe-tab-item icon="car">
+        <span slot="tab-item-icon"></span>
+        <span slot="tab-item-label">Cars</span>
+      </orxe-tab-item>
+      <orxe-tab-item icon="activity" iconSlotRight>
+        <span slot="tab-item-icon"></span>
+        <span slot="tab-item-label">Activities</span>
+      </orxe-tab-item>
+    </orxe-tabs>
+    </br>
+    </br> 
+    
+  </body>
+</html>
